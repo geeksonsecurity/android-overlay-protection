@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Overlay Protector</string>
+    <string name="home_section">Home</string>
+    <string name="settings_section">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="overlay_accessibility_settings_btn">Accessibility Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="overlay_start_btn">Start Overlay</string>
+    <string name="overlay_stop_btn">Stop Overlay</string>
+    <string name="overlay_check_service_running_btn">Check server running</string>
+    <string name="opAccessibilityServiceDescription">This service monitors the user interface (UI) in order to detect phishing attacks aimed to steal your credentials or make you perform malicious actions</string>
+    <string name="opAccessibilityServiceName">Overlay Protector</string>
+    <string name="opConfigInstructionStep1">In the Accessibility page please press the \'OverlayProtector\' service</string>
+    <string name="opConfigInstructionStep2">Press the switch on the top-right to enable the service</string>
+    <string name="opEnableProtectionBtnLabel">Enable Protection</string>
+    <string name="finishWizardBtnLabel">Finish</string>
+    <string name="opWizardNext">Next</string>
+    <string name="opWizardPrevious">Previous</string>
+    <string name="overlay_detected_section">Detected Overlays</string>
+    <string name="op_od_empty">Yay! No overlay detected yet!</string>
+    <string name="op_wl_empty">No custom whitelist entries yet!</string>
+    <string name="whitelist_section">White List</string>
+    <string name="settings_reset_defaults">Reset to Default Values</string>
+    <string name="detectedCount">%d overlay detected in the last 30 days</string>
+    <string name="eventCount">%d UI events processed in the last minute</string>
+    <string name="suspected_app_section">Suspected Apps</string>
+    <string name="op_refresh">Refresh</string>
+    <string name="op_clear_history">Clear History</string>
+    <string name="op_save">Save</string>
+    <string name="op_add">Add</string>
+    <string name="op_enter_package_name">Enter package name</string>
+    <string name="op_title">Title</string>
+    <string name="op_package_hint">com.ignore.this</string>
+    <string name="op_include_subpackage_flag">Include all sub-packages (*)</string>
+    <string name="op_cancel">Cancel</string>
+    <string name="op_detection_option_title">Detection should be performed on</string>
+    <string name="op_protection_status">Protection Status</string>
+    <string name="op_not_working">Not working</string>
+    <string name="op_none_placeholder">NONE</string>
+    <string name="op_description">Description</string>
+    <string name="op_close">Close</string>
+    <string name="op_send_developer">Send to developer</string>
+    <string name="op_overlay_detected_title">Overlay detected</string>
+    <string name="op_settings_detection_delay">Detection delay (ms):</string>
+    <string name="op_hint_milliseconds">value in milliseconds</string>
+    <string name="op_statistics">Statistics</string>
+    <string name="op_malware_package_example">com.gos.malware</string>
+    <string name="op_settings_open_close_grace_period">Open/Close grace period (ms):</string>
+    <string name="op_start_accessibility_page">Start Accessibility Page</string>
+    <string name="op_show_warning_example">Show Warning Example</string>
+    <string name="op_warning_ignore">Trust app</string>
+    <string name="op_ignore_once">Ignore Once</string>
+    <string name="op_warning_uninstall">Uninstall</string>
+    <string name="op_warning_more_info">More Infos</string>
+    <string name="op_legitimate_package_name">overlaying com.legitimate.app</string>
+    <string name="op_wizard_step1_content">
+        With this wizard you are guided on how to enable the overlay protection on your device, it requires just a couple of small steps!\n
+        The application uses an accessibility service to monitor the user interface (UI) changes and detect eventual attacks aimed to steal our data.
+    </string>
+    <string name="op_wizard_step1_title">Let\'s start</string>
+    <string name="op_wizard_step2_title">Locate Overlay Protector</string>
+    <string name="op_wizard_step2_content">On the Accessibility page press the Overlay Protector item</string>
+    <string name="op_wizard_step3_title">Enable the service</string>
+    <string name="op_wizard_step3_content">Toggle the top-right switch to be on the \'On\' position</string>
+    <string name="op_wizard_step4_content">
+        Press OK to accept the permissions imposed by the service.
+        \nThis is the last page, you will be now redirected to the Accessibility settings page where you can performs these steps and enable the protection!</string>
+
+    <string name="op_wizard_step4_title">Accept the permissions</string>
+    <string name="eventCountLoading">Waiting for UI event count...</string>
+    <string name="op_uninstallWarning"><![CDATA[If, after pressing uninstall, you don\'t see a system dialog it means that the overlay is covering it. If so, we suggest you to uninstall the application via Settings -> Application menu. The overlay protector won\'t bother you with warnings for the next %d seconds.]]></string>
+    <string name="od_seconds_label">%d seconds</string>
+    <string name="op_suspectedapps_empty">No suspected apps detected!</string>
+    <string name="od_suspectedapps_explanation">Suspected apps require SYSTEM_ALERT_WINDOW and GET_TASKS permissions</string>
+    <string name="suspectedAppCount">%d suspected apps found</string>
+</resources>

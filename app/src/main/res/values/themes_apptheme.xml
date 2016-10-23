@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+
+        <item name="android:activatedBackgroundIndicator">@drawable/drawer_list_selector</item>
+
+        <item name="android:editTextStyle">@style/EditTextAppTheme</item>
+
+        <item name="android:checkboxStyle">@style/CheckBoxAppTheme</item>
+
+        <item name="android:radioButtonStyle">@style/RadioButtonAppTheme</item>
+
+        <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+
+        <item name="android:imageButtonStyle">@style/ImageButtonAppTheme</item>
+
+        <item name="android:listViewStyle">@style/ListViewAppTheme</item>
+
+        <item name="android:listViewWhiteStyle">@style/ListViewAppTheme.White</item>
+
+        <item name="android:spinnerItemStyle">@style/SpinnerItemAppTheme</item>
+
+    </style>
+
+</resources>

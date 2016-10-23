@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        style="@style/WizardPageContainer"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+
+        <TextView
+            style="@style/CustomWizardPageTitle"
+            android:text="@string/op_title" />
+
+        <FrameLayout
+            android:id="@+id/frameLayoutImageContainer"
+            style="@style/WizardPageImageContainer">
+
+            <ImageView
+                android:id="@+id/imageView"
+                style="@style/WizardPageImage"
+                tools:ignore="ContentDescription" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/wizardDescriptionText"
+            style="@style/CustomWizardPageDescription"
+            android:text="@string/op_description" />
+    </LinearLayout>
+</ScrollView>

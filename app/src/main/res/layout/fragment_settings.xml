@@ -1,0 +1,101 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.geeksonsecurity.android.overlayprotector.view.SettingsFragment">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <CheckBox
+                android:id="@+id/enabledAdvancedProtectionCheckBox"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Check every app, not only the suspected one" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="This may cause some false positive at the beginning since you need to populate the whitelist with the some legitimate apps" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Uninstall timeout" />
+
+            <SeekBar
+                android:id="@+id/uninstallTimeoutSeekBar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:max="120" />
+
+            <TextView
+                android:id="@+id/uninstallValueTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/od_seconds_label"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Ignore Once timeout" />
+
+            <SeekBar
+                android:id="@+id/ignoreOnceTimeoutSeekBar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:max="60" />
+
+            <TextView
+                android:id="@+id/ignoreOnceValueTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/od_seconds_label"
+                android:layout_gravity="center_horizontal" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/detectionEngineSpinner" />
+
+            <Button
+                android:id="@+id/overlayStartAccessibiltyBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/op_start_accessibility_page" />
+
+            <Button
+                android:id="@+id/showOverlayButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/op_show_warning_example" />
+
+            <Button
+                android:id="@+id/resetDefaultButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_reset_defaults" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
